@@ -15,6 +15,12 @@ body {
 
 }
 
+.header .headshot {
+    /* border: red solid 2px; */
+    height: 100%;
+    width: 19%;
+}
+
 .headerInfo {
     flex: 1;
     color: white;
