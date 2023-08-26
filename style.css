@@ -59,6 +59,7 @@ body {
     margin: 0;
     margin-left: 10px;
     font-size: 20px;
+    color: rgb(178, 178, 178);
 }
 .detailDiv img{
     color: rgb(178, 178, 178);
@@ -67,6 +68,14 @@ body {
 
 .github-mark {
      filter: invert(33%); 
+}
+.github-dark {
+     filter: invert(80%); 
+     height: 1.5rem;
+}
+.globe-dark {
+     filter: invert(20%); 
+     height: 1.4rem;
 }
 
 .mainDiv {
@@ -92,14 +101,17 @@ body {
 }
 
 .experience {
-    flex: 1;
+    
     border-bottom: rgb(228, 228, 228) 2px solid;
+    /* padding-top: 20px; */
+    padding-bottom: 40px;
 }
 
 .tutoring {
     flex: 1;
     
     border-bottom: rgb(228, 228, 228) 2px solid;
+    padding-bottom: 40px;
 }
 
 
@@ -202,4 +214,34 @@ body {
     background-color: rgb(159, 159, 168);
     width: 20%;
     height: 100%;
+}
+
+.link {
+    font-style: normal;
+    color:  rgb(64, 64, 71);
+}
+
+
+.projectP1 {
+    position: relative;
+    width: 100%;
+}
+.projectP2 {
+    position: relative;
+}
+
+#link1 {
+    /* position: absolute;
+    right: 5px; */
+}
+
+.version {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.versionLinks {
+    display: flex;
+    gap: 25px;
 }
