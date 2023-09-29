@@ -250,4 +250,6 @@ body {
 .versionLinks {
     display: flex;
     gap: 25px;
+    /* border: red 2px solid; */
+    margin-left: 2rem;
 }
